@@ -1,0 +1,385 @@
+[11/22, 2:48 PM] Frank: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Velvet Crown</title>
+    <link rel="stylesheet" href="velvet crown.css">
+    <script src="velvet-crown.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Our Menus</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#book">Book a Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        
+        <div class="hero">
+            <img src="C:\Users\hp\OneDrive\Videos\front-about.jpg" alt="Image 1">
+            <div class="hero-text">
+              <h1>Welcome to The Velvet Crown</h1>
+              <p>Your ultimate dining experience awaits.</p>
+            </div>
+            <img src="C:\Users\hp\OneDrive\Videos\front-about2.jpg" alt="Image 2">
+          </div>
+    </section>
+    <section id="about">
+        <h2>Our Story</h2>
+        <p>
+            The Velvet Crown restaurant, situated in an old house in Karen, was originally occupied in the year 1999 by the famous wildlife photographer and author Alan Root in his youth. 
+            It was created as a small family-friendly kitchen, later growing into the best restaurant in the country.
+        </p>
+        <p>
+         We are a 100% plastic-free zone with an organic garden that supplies fresh produce. Our waste management meets the highest standards, ensuring sustainable dining.
+        </p>
+        <p>Welcome to The Velvet Crown for your best dining experience.</p>
+    </section>
+    <section id="menu">
+        <h2>Our Menus</h2>
+        <ul>
+            <li>Feta and Coriander Samosas</li>
+            <li>Grilled Salmon with Asparagus</li>
+            <li>Chocolate Fondant with Vanilla Ice Cream</li>
+            <li>Lemon & Mint Sorbet</li>
+            
+        </ul>
+    </section>
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <p>Join us for live jazz nights every Friday and special brunch events every Sunday.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="images/Talisman_web_0048-400x400.jpg" alt="Gallery Image 1">
+            <img src="images/Talisman_web_0069-400x400.jpg" alt="Gallery Image">
+        </div>
+    </section>
+    <section id= "book">
+        <h2>Book a Table</h2>
+       <p>Reserve a table to enjoy our exquisite dining experience. Please fill out the form below to secure your spot!</p>
+        
+        <form action="submit-booking.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+            
+            <label for="seating">Seating Preference:</label>
+            <select id="seating" name="seating">
+                <option value="indoor">Indoor</option>
+                <option value="outdoor">Outdoor</option>
+                <option value="window">Window Side</option>
+            </select>
+            <label for="special-requests">Special Requests (e.g., dietary needs):</label>
+            <textarea id="special-requests" name="special-requests" rows="3"></textarea> 
+            <form>
+                <button>
+                    <nav>
+                        <a href="Reserve Now.html">Reserve now</a>
+                    </nav>
+                </button>
+                <button>
+                    <nav>
+                        <a href="velvet crown.html">reset</a>
+                    </nav>
+                </button>
+            </form>
+          </form>
+          <!-- Booking Section -->
+<section id="book">
+    <h2>Book a Room</h2>
+    <p>Reserve a room to enjoy our exquisite lodging experience. Please fill out the form below to secure your spot!</p>
+    <form action="submit-booking.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" required>
+    <label for="guests">Number of Occupants:</label>
+    <input type="number" id="occupants" name="occcupants" min="1" required>
+    <label for="rooms">Room Preference:</label>
+    <select id="rooms" name="rooms">
+    <option value="Deluxe">Deluxe Room</option>
+    <option value="Suite">Suite Room</option>
+    </select>
+    <label for="special-requests">Special Requests (e.g., specific needs):</label>
+    <textarea id="special-requests" name="special-requests" rows="3"></textarea>
+    <form>
+    <button>
+    <nav>
+    <a href="reserve now 2.html">Reserve Now</a>
+    </nav>
+    </button>
+    <button>
+    <nav>
+    <a href="velvet crown.html">Reset</a>
+    </nav>
+    </button>
+    </form>
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room">
+<img src="C:\Users\hp\OneDrive\Videos\images.jpeg"alt="photo 1">
+<br>
+<img src="C:\Users\hp\OneDrive\Videos\download (1).jpg"alt="photo 1">
+            <h3>Deluxe Room:</h3>
+            <p>Spacious and elegantly furnished with stunning views.</p>
+        </div>
+        <div class="room">
+     <img src="C:\Users\hp\OneDrive\Videos\images.jpg"alt="Suite room">
+<br>
+<img src="C:\Users\hp\OneDrive\Videos\unnamed.webp"alt="Suite room">
+            <h3>Suite Room:</h3>
+            <p>A luxurious suite with all the amenities you need.</p>
+</div>
+        <div class="booking-info">
+            <p>📍 Located at: Karen, Nairobi, Kenya</p>
+            <p>📞 For inquiries: +254 740 612 757</p>
+            <p>🕒 Open Daily: 9 AM - 11 PM</p>
+            <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <p class="booking-terms">*Please note that reservations are held for up to 15 minutes after the booked time.</p>
+    </section>
+    <p>All Rights Reserved. Executive Outsourcing &copy;2019.</p>
+    <footer>
+        <p>Open Daily: 9 AM - 11 PM</p>
+        <p>&copy; 2024 The Velvet Crown. All Rights Reserved.</p>
+        <a class="social-icons" href="https://instagram.com/kca_university" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a class="social-icons" href="https://youtube.com/kenyacitizentv" target="_blank">
+            <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </footer>       
+</body>
+</html>
+[11/22, 2:49 PM] Frank: /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #8b0000;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: 80vh;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("C:/Users/hp/OneDrive/Videos/front-about.jpg") no-repeat center center/cover;
+}
+
+.hero img {
+    display: none; /* Hide unnecessary images if background is used */
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #8b0000;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu Section */
+#menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+/* Events Section */
+#events p {
+    font-style: italic;
+    text-align: center;
+}
+
+/* Gallery */
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Booking Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fdf5e6;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8b0000;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #660000;
+}
+
+/* Footer */
+footer {
+    background: #8b0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-icons {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+footer .social-icons:hover {
+    color: #ffd700;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1.2rem;
+    }
+
+    .gallery-images img {
+        width: 100%;
+    }
+}
